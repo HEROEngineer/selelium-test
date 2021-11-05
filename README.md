@@ -10,3 +10,4 @@ text written in it. This will conclude the website is deployed and is running fi
 •	Pipeline script to clone git repository -Pull the PHP website, Dockerfile and Selenium JAR from your git repo
 •	build and deploy PHP docker container
 •	Test the deployment using Selenium JAR file. We can use below shell scripts to create pipeline script.  Or we can create a project and use post build actions to execute the shell command.
+![image](https://user-images.githubusercontent.com/28413965/140520250-03aba4ca-a50d-444a-b4f4-8725d8db04bb.png)
