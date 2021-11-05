@@ -5,3 +5,8 @@
 •	Ansible - Configuration management tool to set up git, docker and selenium on the slave node.
 •	Selenium - Create a Selenium Unit Test for the PHP website. It should click on “About” and verify the
 text written in it. This will conclude the website is deployed and is running fine.
+
+
+•	Pipeline script to clone git repository -Pull the PHP website, Dockerfile and Selenium JAR from your git repo
+•	build and deploy PHP docker container
+•	Test the deployment using Selenium JAR file. We can use below shell scripts to create pipeline script.  Or we can create a project and use post build actions to execute the shell command.
